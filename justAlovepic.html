@@ -42,9 +42,9 @@
     var words_attr = [];
     var words = []
 
-    var name = 'fromEren'; // Modify the surrounding floating text (name)
+    var name = 'eren for lucina'; // Modify the surrounding floating text (name)
     var name2 = 'for lucina'; // Modify the center name
-    var count = '4'; // Modify the number of floating texts
+    var count = '6'; // Modify the number of floating texts
     var nameHeartFont = "50px "; // Modify the font size of the center name
     var myfont = "微软雅黑"; // Change it to a font you have on your computer
     var nameFlowColor = '#ffc0cb'; // Color of the flowing name text
@@ -260,11 +260,11 @@ var ParticlePool = (function() {
     // clear canvas
     context.clearRect(0, 0, canvas.width, canvas.height);
 
-    context.font = "50px 微软雅黑";
+   //  context.font = "50px 微软雅黑";
 
-    context.fillStyle = nameHeartColor;
-   // 计算字体长度
-    context.fillText(name2, canvas.width/2-24*name2.length, canvas.height/2-24);
+   //  context.fillStyle = nameHeartColor;
+   // // 计算字体长度
+   //  context.fillText(name2, canvas.width/2-24*name2.length, canvas.height/2-24);
 
     for (var i=0; i<words_attr.length; i++) {
       context.font = words_attr[i].font;

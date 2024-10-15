@@ -263,13 +263,13 @@ var ParticlePool = (function() {
     time = newTime;
     
     // clear canvas
-    context.clearRect(0, 0, canvas.width, canvas.height);
+     context.clearRect(0, 0, canvas.width, canvas.height);
 
-   //  context.font = "50px 微软雅黑";
+     context.font = "50px 微软雅黑";
 
-   //  context.fillStyle = nameHeartColor;
-   // // 计算字体长度
-   //  context.fillText(name2, canvas.width/2-24*name2.length, canvas.height/2-24);
+     context.fillStyle = nameHeartColor;
+    // 计算字体长度
+     context.fillText(name2, canvas.width/2-24*name2.length, canvas.height/2-24);
 
     for (var i=0; i<words_attr.length; i++) {
       context.font = words_attr[i].font;
